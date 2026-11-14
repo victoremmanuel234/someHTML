@@ -6,6 +6,7 @@
         </title>
         <meta charset="utf-8">
         <style>
+            
             .state{
                 margin: 20px 20px 20px 20px;
                 border: 20px solid #663399 ;
@@ -17,14 +18,16 @@
                 border-radius: 2em 2em;
                 box-shadow: 5px 5px 5px 0px #0a82b9;
                 transition: border 2s;
+                background-image: linear-gradient(green,yellow,blue);
 
             }
             .state:active{
                 border: 20px solid #5d08b2;
-                transform: scale3d(1,2,2);
-                
+                transform:skew(40deg);  
+                transform-origin: bottom left; 
             }
         </style>
+
         
     </head>
     <body>
@@ -33,6 +36,8 @@
             <div class="state">the state is Andhra Pradesh</div>
             <div class="state">this state is Kerala</div>
             <div class="state">this is Maharastra</div>
+            <div class="state"> this is a Bad state</div>
         </div>
+        
     </body>
 </html>
