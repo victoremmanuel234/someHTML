@@ -1,41 +1,51 @@
-#navbar{
-            background-color: #00ffff;
-            height: 60px;
-        }
-        #navbar .navbar-brand{
-            width: 25%;
-            background-color: #05d9d9;
-            float: left;
-            padding-top: 10px;
-            padding-left: 10px;
-            font-weight: bold;
-        }
-        #navbar .nav-items{
-            width: 75%;
-            color: azure;
-            float: left;
-            padding-left: 10px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-        #navbar .nav-items ul{
-            list-style-type: none;
-            padding: 0px;
-            
-        }
-        #navbar .nav-items ul li{
-            float: left;
-        }
+#navbar {
+  background-color: #00ffff;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+#navbar .navbar-brand {
+  width: 25%;
+  color: rgb(9, 82, 146);
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+#navbar .nav-items {
+  width: 75%;
+  float: left;
+}
+#navbar .nav-items ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#navbar .nav-items ul li {
+  float: left;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-        #navbar .nav-items ul li a:link , #navbar .nav-items ul li a:visited{
-            text-decoration: none;
-            padding-left: 20px;
-            padding-right: 20px;
-            border-radius: 10%;
-            color: azure;
+#navbar .nav-items ul li a:link,
+#navbar .nav-items ul li a:visited {
+  text-decoration: none;
+  padding-right: 40px;
+  border-radius: 5%;
+  color: azure;
+}
 
-        }
+#navbar .nav-items ul li a:hover {
+  background-color: #a7e6e6de ;
+}
 
-        #navbar .nav-items ul li a:hover{
-            background-color: #05d9d9;
-        }
+.test{
+    float: left;
+    position: absolute;
+    left: 0px;
+    top :100px;
+}
+.test div{
+    
+    padding-right: 10px;
+}
+

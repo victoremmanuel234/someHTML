@@ -1,0 +1,17 @@
+.table{
+    width: 100%;
+    background-color: #838b84;
+    margin: auto;
+    cursor: pointer;
+    min-width: 1000px;
+    border-collapse: collapse;
+
+}
+.table td{
+    border: 5px solid green;
+    padding: 20px;
+}
+
+.table th{
+    border: 5px solid black;
+}
