@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header{
+    background-color: navy;
+    color: gold;
+    text-align: center;
+}
+
+nav{
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+    color: navy;
+
+}
+nav ul li a:hover{
+    background-color: rgb(192, 219, 243);
+    cursor: pointer;
+    
+}
+.box1 , .box2
+{
+    flex: 1;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    height: 70vh;
+}
+
+aside{
+    flex: 1;
+    background-color: navy;
+
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+aside ul li a:link,
+aside ul li a:visited{
+    display: inline-block;
+    color: gold;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+aside ul li a:hover{
+    background-color: rgb(165, 165, 199);
+    cursor: pointer;
+}
+
+main{
+    background-color: rgb(201, 190, 130);
+    color: white;
+    padding: 20px;
+    flex: 3;
+    display: flex;
+}
+main section{
+    padding: 5px;
+}
+main section div h1{
+    color: navy;
+    padding-bottom: 2px;    
+}
+
+
+main section div p{
+    color: navy;
+    text-align: justify;
+}
+
+footer{
+    background-color: navy;
+
+}
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a:link,
+footer ul li a:visited{
+    color: gold;
+    display: inline-block;
+    padding: 5px;
+}
+
+@media only screen and (max-width:768px){
+    
+}
